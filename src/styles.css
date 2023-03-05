@@ -19,7 +19,16 @@ body {
   width: 550px;
   height: 550px;
   margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 44px 3px #655656;
+}
+
+#light .container {
   background-color: #fff;
+}
+
+#dark .container {
+  background-color: #2a2828;
 }
 
 header {
@@ -83,7 +92,7 @@ h2 {
   max-width: 477px;
   max-height: 268px;
   border-radius: 3px;
-  object-fit: cover
+  object-fit: cover;
 }
 
 .meme-text {
@@ -110,4 +119,19 @@ h2 {
 
 .top {
   top: 0;
+}
+
+#light {
+  background-color: #fff;
+}
+
+#dark {
+  background-color: #2a2828;
+}
+
+.switch {
+  display: flex;
+  margin-top: 10px;
+  height: 100px;
+  justify-content: center;
 }
